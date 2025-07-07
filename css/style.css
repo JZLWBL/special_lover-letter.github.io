@@ -1,0 +1,68 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0 20px 40px;
+    background: #fff0f5;
+    color: #333;
+  }
+  header {
+    text-align: center;
+    padding: 40px 0 20px;
+    border-bottom: 2px solid #ff99cc;
+  }
+  header h1 {
+    color: #ff3366;
+    margin-bottom: 10px;
+  }
+  nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+  }
+  nav ul li a {
+    text-decoration: none;
+    color: #ff3399;
+    font-weight: 600;
+    font-size: 18px;
+  }
+  nav ul li a:hover {
+    text-decoration: underline;
+  }
+  main {
+    max-width: 900px;
+    margin: 20px auto;
+  }
+  section {
+    margin-bottom: 50px;
+  }
+  .photo-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+  }
+  .photo-gallery img {
+    width: 180px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(255, 20, 147, 0.2);
+    cursor: pointer;
+    transition: transform 0.3s;
+  }
+  .photo-gallery img:hover {
+    transform: scale(1.1);
+  }
+  #story-list, #places-list {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  footer {
+    text-align: center;
+    padding-top: 20px;
+    border-top: 1px solid #ff99cc;
+    color: #a83259;
+  }
+  
